@@ -251,3 +251,80 @@ Use the built-in testing interface:
 - Real-time load balancing
 
 - Consensus-based result synthesis
+
+# 📁 Project Structure
+``` bash
+julia-web3-research-assistant/
+├── src/
+│   ├── index.js              # Main application entry
+│   ├── agents/               # JuliaOS agent implementations
+│   ├── swarm/                # Multi-agent coordination
+│   └── utils/                 # Blockchain integration
+├── tests/
+│   ├── unit/                 # Unit tests
+│   ├── integration/          # Integration tests
+│   └── setup.js              # Test configuration
+├── docs/                     # Documentation
+├── test-interface.html       # Demo interface
+├── package.json             # Dependencies and scripts
+├── Dockerfile               # Container deployment
+└── README.md                # This file
+```
+
+## 🤝 Contributing
+For contributions:
+
+1. Fork the repository
+
+2. Create a feature branch
+
+3. Add comprehensive tests
+
+4. Submit a pull request
+
+## 📄 License
+This project is licensed under the MIT License
+
+## Innovation Highlights
+
+- **First-of-kind:** Automated Web3 project research assistant
+
+- **Advanced Swarm Intelligence:** Sophisticated multi-agent coordination
+
+- **Real-time Integration:** Live blockchain data analysis
+
+- **Comprehensive Risk Assessment:** Multi-dimensional evaluation framework
+
+- **Scalable Architecture:** Adaptive agent deployment system
+
+## 🌟 Ecosystem Value
+This application demonstrates the transformative potential of JuliaOS for:
+
+- **Automated Due Diligence:** Streamlining investment research
+
+- **Risk Management:** Advanced threat detection and assessment
+
+- **Market Intelligence:** Real-time protocol monitoring
+
+- **Developer Tools:** Web3 project analysis automation
+
+- **Educational Value:** Showcasing JuliaOS capabilities
+
+## 📞 Support & Contact
+
+- **Email:** tokenharvester@gmail.com
+  
+- **Telegram:** Token_Harvester1
+  
+- **Twitter:** Token_Harvester
+
+## 🏅 Acknowledgments
+
+- **JuliaOS Team:** For the innovative agent framework
+  
+- **Web3 Community:** For inspiration and domain expertise
+  
+- **Bounty Program:** For driving innovation in AI agent development
+
+**Built with ❤️ using JuliaOS Agent Framework**
+**Demonstrating the future of autonomous* AI in Web3 research and analysis
