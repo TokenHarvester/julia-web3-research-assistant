@@ -144,3 +144,33 @@ const results = await swarm.coordinatedAnalysis(complexQuery);
 3. **Select swarm size:** 3 agents
 
 4. **Click "Deploy Swarm"** for multi-agent analysis
+
+## Real-time Blockchain Queries
+
+1. **Access Advanced Features**
+2. **Select blockchain network:** Solana/Ethereum/Polygon
+3. **Click network button** for live onchain data
+
+# 🧪 Testing
+## Run Test Suite
+``` bash
+# Run all tests
+npm test
+
+# Run specific test types
+npm run test:unit
+npm run test:integration
+npm run test:coverage
+
+# Watch mode for development
+npm run test:watch
+```
+
+## Manual Testing
+Use the built-in testing interface:
+
+- Agent Test: Validates agent.useLLM() integration
+
+- Swarm Test: Tests multi-agent coordination
+
+- Performance Test: Benchmarks system performance
