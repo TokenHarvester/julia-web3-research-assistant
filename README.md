@@ -322,9 +322,8 @@ This application demonstrates the transformative potential of JuliaOS for:
 
 - **JuliaOS Team:** For the innovative agent framework
   
-- **Web3 Community:** For inspiration and domain expertise
-  
-- **Bounty Program:** For driving innovation in AI agent development
+- **Superteam Earn Bounty Program:** For driving innovation in AI agent development
 
 **Built with ❤️ using JuliaOS Agent Framework**
-**Demonstrating the future of autonomous* AI in Web3 research and analysis
+
+*Demonstrating the future of autonomous* AI in Web3 research and analysis
