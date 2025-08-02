@@ -45,6 +45,80 @@ This project fully satisfies all bounty requirements:
 1. **Clone the repository**
    ``` bash
    git clone https://github.com/TokenHarvester/julia-web3-research-assistant.git
-   cd 
+   cd julia-web3-research-assistant # if not in this directory already
+   cd web3-research-assistant
    ```
    
+2. **Install dependencies**
+   ``` bash
+   npm install
+   ```
+
+3. **Configure environment**
+   ``` bash
+   cp .env.example .env
+   # Edit .env with your JuliaOS API credentials
+   ```
+
+4. **Start the application**
+   ``` bash
+   npm start
+   ```
+
+5. **Open the demo interface**
+   ``` bash
+   http://localhost:3000
+   ```
+
+ ## **Alternative: Direct Demo**
+ 
+ For immediate testing, simply open **"test-interface.html"** in your browser to access the full-featured demo interface. ie open your live server.
+
+ ## Demo Video
+
+ https://drive.google.com/file/d/150pkttGTvISICsr-B9JuPLCfgcLV29gq/view?usp=drivesdk
+
+ # 🔧 Configuration
+
+ ## Environment Variables
+ ``` bash
+# JuliaOS Configuration
+JULIAOS_API_KEY=your_api_key_here
+JULIAOS_API_URL=https://api.juliaos.com
+NODE_ENV=production
+PORT=3000
+```
+
+## Agent Configuration
+The system supports multiple agent types:
+
+- **Single Agent:** Basic research tasks
+- **3-Agent Swarm:** Balanced performance (recommended)
+- **5-Agent Swarm:** Complex analysis tasks
+- **7-Agent Swarm:** Maximum parallelization
+
+# 🚁 JuliaOS Architecture
+## Agent Framework Integration
+``` bash
+# Example of agent.useLLM() integration
+const agent = new JuliaOSAgent({
+  llm: 'gpt-4',
+  specialization: 'web3-research',
+  capabilities: ['risk-assessment', 'tokenomics-analysis', 'technical-audit']
+});
+
+# Autonomous research execution
+const analysis = await agent.useLLM().analyze(projectQuery);
+```
+
+## Swarm Coordination
+``` bash
+# Multi-agent swarm deployment
+const swarm = new JuliaOSSwarm({
+  size: 5,
+  coordination: 'distributed-consensus',
+  specializations: ['data-collector', 'risk-analyzer', 'market-researcher']
+});
+
+const results = await swarm.coordinatedAnalysis(complexQuery);
+```
