@@ -122,3 +122,25 @@ const swarm = new JuliaOSSwarm({
 
 const results = await swarm.coordinatedAnalysis(complexQuery);
 ```
+
+
+# 🎮 Usage Examples
+## Basic Project Analysis
+
+1. **Navigate to the interface**
+
+2. **Enter a research query:** e.g. "Analyze Uniswap V4 hooks architecture and risks"
+
+3. **Select analysis depth:** Comprehensive Due Diligence
+   
+4. **Click "Deploy Agent"** to start JuliaOS analysis
+
+## Swarm Intelligence Demo
+
+1. **Go to Swarm Dashboard**
+
+2. **Enter complex query:** e.g. "Compare top 5 DeFi protocols across security metrics"
+
+3. **Select swarm size:** 3 agents
+
+4. **Click "Deploy Swarm"** for multi-agent analysis
