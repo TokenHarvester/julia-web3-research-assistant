@@ -44,7 +44,7 @@ This project fully satisfies all bounty requirements:
 
 1. **Clone the repository**
    ``` bash
-   git clone
-   cd
+   git clone https://github.com/TokenHarvester/julia-web3-research-assistant.git
+   cd 
    ```
    
